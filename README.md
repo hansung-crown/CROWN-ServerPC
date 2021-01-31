@@ -16,7 +16,7 @@
 1. Setup
 
 2. Pre-trained model 다운로드
-   - Inception-ResNet-v1 model (<a href="1akOzzDLc221LFBqVe5k9TYiT5sSNkUuo">20180402-114759</a>)
+   - Inception-ResNet-v1 model (<a href="https://drive.google.com/uc?export=view&id=1akOzzDLc221LFBqVe5k9TYiT5sSNkUuo">20180402-114759</a>)
    - 참고 repository: [davidsandberg](https://github.com/davidsandberg/facenet)
    
 3. Gesture model 다운로드
