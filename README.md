@@ -11,16 +11,24 @@
 - **Visual Studio Code**
 
 
+## How To Use
 
-> **참고**
+1. Setup
 
-- Tensorflow-gpu, Python, cuDNN, CUDA 호환 버전 확인
-
-  - https://www.tensorflow.org/install/source_windows?hl=ko
-  - 본 팀은 Tensorflow-gpu : 1.7.0, Python : 3.5-3.6, cuDNN : 7, CUDA : 9 사용
-
-    <img src="https://user-images.githubusercontent.com/56067179/105945073-e607ae00-60a7-11eb-9944-06172c58b30b.png" width="500" />
-
+2. Pre-trained model 다운로드
+   - Inception-ResNet-v1 model (<a href="1akOzzDLc221LFBqVe5k9TYiT5sSNkUuo">20180402-114759</a>)
+   - 참고 repository: [davidsandberg](https://github.com/davidsandberg/facenet)
+   
+3. Gesture model 다운로드
+   - <a href="https://drive.google.com/uc?export=view&id=1MYu1HBdOFomYHZZIUr_K997RQNfxLE55">gesture_model</a>
+   - 참고 repository: [jrobchin](https://github.com/jrobchin/Computer-Vision-Basics-with-Python-Keras-and-OpenCV)
+   
+4. data, output, logs 디렉토리 만들기
+   - data 디렉토리: 학습시킬 얼굴 사진들을 인물별로 저장
+   - output 디렉토리: data 디렉토리의 사진들을 align하여 저장
+   - logs 디렉토리: 이벤트 발생 시 이미지를 캡쳐하여 저장 (ex. Danger, Unknown그룹 인식)
+   
+5. 가상환경에서 CROWN.py 실행
 
 
 ## Setup-NVIDIA 그래픽 드라이버
@@ -50,6 +58,15 @@
 
     <img src="https://user-images.githubusercontent.com/56067179/105939286-409b0d00-609c-11eb-97be-ac472bd6c1da.png" width="500" />
 
+
+> **참고**
+
+- Tensorflow-gpu, Python, cuDNN, CUDA 호환 버전 확인
+
+  - https://www.tensorflow.org/install/source_windows?hl=ko
+  - 본 팀은 Tensorflow-gpu : 1.7.0, Python : 3.5-3.6, cuDNN : 7, CUDA : 9 사용
+
+    <img src="https://user-images.githubusercontent.com/56067179/105945073-e607ae00-60a7-11eb-9944-06172c58b30b.png" width="500" />
 
 
 ## Setup-CUDA
