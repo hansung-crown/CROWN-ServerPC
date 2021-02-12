@@ -167,12 +167,12 @@
 - **FCM용 Firebase Admin SDK 설치**
 
   - https://firebase.google.com/docs/cloud-messaging/server
-
-  <img src="https://user-images.githubusercontent.com/56067179/106376510-5af52380-63d9-11eb-87dd-c54b9003832f.PNG" width="80%" />
+   <br/>
+   <img src="https://user-images.githubusercontent.com/56067179/106376510-5af52380-63d9-11eb-87dd-c54b9003832f.PNG" width="600" />
 
   - https://firebase.google.com/docs/admin/setup#python
-
-  <img src="https://user-images.githubusercontent.com/56067179/106376512-5c265080-63d9-11eb-832f-1eee90bc58b2.PNG" width="80%" />
+   <br/>
+   <img src="https://user-images.githubusercontent.com/56067179/106376512-5c265080-63d9-11eb-832f-1eee90bc58b2.PNG" width="600" />
 
   - **Firebase Admin SDK JSON 파일 저장**
 
