@@ -155,7 +155,27 @@
     $ tf.__version__
     ```
 
-  
+- **gsutil 설정**
+
+  - 아래와 같이 입력 후 안내에 따라 필요한 정보 입력
+  - VSCode CMD
+
+     ```
+     $ gsutil config
+     ```
+
+- **FCM용 Firebase Admin SDK 설치**
+
+  - https://firebase.google.com/docs/cloud-messaging/server
+
+  <img src="https://user-images.githubusercontent.com/56067179/106376510-5af52380-63d9-11eb-87dd-c54b9003832f.PNG" width="80%" />
+
+  - https://firebase.google.com/docs/admin/setup#python
+
+  <img src="https://user-images.githubusercontent.com/56067179/106376512-5c265080-63d9-11eb-832f-1eee90bc58b2.PNG" width="80%" />
+
+  - **Firebase Admin SDK JSON 파일 저장**
+
 
 > **참고**
 
